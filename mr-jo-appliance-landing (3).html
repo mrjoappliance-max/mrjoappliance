@@ -1,0 +1,1015 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Mr. Jo Appliance Repair - Baton Rouge's trusted appliance repair experts. Same-day service for refrigerators, washers, dryers, ovens & more. Licensed & insured. Call (225) 555-REPAIR!">
+    <meta name="keywords" content="appliance repair Baton Rouge, refrigerator repair Baton Rouge, washer repair Baton Rouge, dryer repair Baton Rouge, dishwasher repair Baton Rouge, oven repair Baton Rouge, same day appliance repair, emergency appliance repair Baton Rouge LA">
+    <meta name="geo.region" content="US-LA">
+    <meta name="geo.placename" content="Baton Rouge">
+    <title>Appliance Repair Baton Rouge | Same-Day Service | Mr. Jo Appliance</title>
+    <link rel="canonical" href="https://mrjoappliance.com">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Appliance Repair Baton Rouge | Mr. Jo Appliance">
+    <meta property="og:description" content="Fast, reliable appliance repair in Baton Rouge. Same-day service available. Licensed & insured. Call (225) 555-REPAIR!">
+    
+    <!-- Schema.org markup -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "Mr. Jo Appliance Repair",
+      "image": "https://mrjoappliance.com/logo.png",
+      "description": "Professional appliance repair services in Baton Rouge, LA",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Baton Rouge",
+        "addressRegion": "LA",
+        "addressCountry": "US"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 30.4515,
+        "longitude": -91.1871
+      },
+      "telephone": "(225) 555-REPAIR",
+      "priceRange": "$$",
+      "openingHours": "Mo-Su 07:00-21:00",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "5",
+        "reviewCount": "127"
+      }
+    }
+    </script>
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            color: #333;
+        }
+
+        .header {
+            background: #00437c;
+            color: white;
+            padding: 1rem 5%;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+
+        .header-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 1rem;
+        }
+
+        .logo-container {
+            display: flex;
+            align-items: center;
+            gap: 0.8rem;
+        }
+
+        .logo-icon {
+            width: 50px;
+            height: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-shrink: 0;
+        }
+
+        .logo-icon img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+
+        .logo-text {
+            display: flex;
+            flex-direction: column;
+            line-height: 1.2;
+        }
+
+        .logo-name {
+            font-size: 1.4rem;
+            font-weight: bold;
+            color: white;
+        }
+
+        .logo-tagline {
+            font-size: 0.75rem;
+            color: #FFB915;
+            font-weight: normal;
+        }
+
+        .header-cta {
+            background: #F50F28;
+            color: white;
+            padding: 0.8rem 1.5rem;
+            border: none;
+            border-radius: 5px;
+            font-size: 1rem;
+            font-weight: bold;
+            cursor: pointer;
+            transition: transform 0.2s, box-shadow 0.2s;
+            white-space: nowrap;
+        }
+
+        .header-cta:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(245, 15, 40, 0.4);
+        }
+
+        .hero {
+            background: linear-gradient(135deg, rgba(0, 67, 124, 0.95) 0%, rgba(0, 52, 97, 0.95) 100%),
+                        url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600"><rect fill="%2300437c" width="1200" height="600"/><g fill="%23FFB915" opacity="0.1"><circle cx="200" cy="150" r="80"/><circle cx="800" cy="400" r="100"/><circle cx="1000" cy="200" r="60"/></g><g fill="white" opacity="0.15"><rect x="100" y="300" width="150" height="200" rx="10"/><rect x="400" y="200" width="120" height="180" rx="10"/><rect x="700" y="350" width="100" height="150" rx="10"/><circle cx="950" cy="450" r="40"/></g></svg>');
+            background-size: cover;
+            background-position: center;
+            color: white;
+            padding: 3rem 5% 4rem;
+            text-align: center;
+        }
+
+        .hero-content {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        .hero h1 {
+            font-size: clamp(1.8rem, 5vw, 3rem);
+            margin-bottom: 1rem;
+            line-height: 1.2;
+        }
+
+        .hero-highlight {
+            color: #FFB915;
+        }
+
+        .hero p {
+            font-size: clamp(1rem, 3vw, 1.3rem);
+            margin-bottom: 2rem;
+            opacity: 0.95;
+        }
+
+        .cta-group {
+            display: flex;
+            gap: 1rem;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-top: 2rem;
+        }
+
+        .cta-option {
+            background: white;
+            color: #00437c;
+            padding: 1.5rem 2rem;
+            border-radius: 15px;
+            text-decoration: none;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 0.5rem;
+            transition: all 0.3s;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            flex: 1;
+            min-width: 200px;
+            max-width: 280px;
+        }
+
+        .cta-option:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 25px rgba(0,0,0,0.2);
+        }
+
+        .cta-option.primary {
+            background: #F50F28;
+            color: white;
+        }
+
+        .cta-option.primary:hover {
+            background: #d00e24;
+        }
+
+        .cta-option.secondary {
+            background: #FFB915;
+            color: #00437c;
+        }
+
+        .cta-option.secondary:hover {
+            background: #e5a713;
+        }
+
+        .cta-icon {
+            font-size: 2.5rem;
+        }
+
+        .cta-label {
+            font-size: 0.9rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .cta-text {
+            font-size: 1.1rem;
+            font-weight: bold;
+        }
+
+        .cta-primary {
+            background: #F50F28;
+            color: white;
+            padding: 1.2rem 2rem;
+            border: none;
+            border-radius: 50px;
+            font-size: clamp(1rem, 2.5vw, 1.2rem);
+            font-weight: bold;
+            cursor: pointer;
+            transition: all 0.3s;
+            box-shadow: 0 4px 15px rgba(245, 15, 40, 0.3);
+            text-decoration: none;
+            display: inline-block;
+        }
+
+        .cta-primary:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 25px rgba(245, 15, 40, 0.5);
+        }
+
+        .cta-secondary {
+            background: transparent;
+            color: white;
+            padding: 1.2rem 2rem;
+            border: 2px solid #FFB915;
+            border-radius: 50px;
+            font-size: clamp(1rem, 2.5vw, 1.2rem);
+            font-weight: bold;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+
+        .cta-secondary:hover {
+            background: #FFB915;
+            color: #00437c;
+        }
+
+        .trust-bar {
+            background: #FFB915;
+            padding: 1.5rem 5%;
+            text-align: center;
+        }
+
+        .trust-items {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            gap: 1.5rem;
+        }
+
+        .trust-item {
+            color: #00437c;
+            font-weight: bold;
+            font-size: clamp(0.85rem, 2vw, 1rem);
+        }
+
+        .services {
+            padding: 4rem 5%;
+            background: #f8f9fa;
+        }
+
+        .section-title {
+            text-align: center;
+            font-size: clamp(1.8rem, 4vw, 2.5rem);
+            color: #00437c;
+            margin-bottom: 3rem;
+        }
+
+        .services-grid {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(min(100%, 280px), 1fr));
+            gap: 1.5rem;
+        }
+
+        .service-card {
+            background: white;
+            padding: 2rem;
+            border-radius: 10px;
+            text-align: center;
+            transition: transform 0.3s, box-shadow 0.3s;
+            border-top: 4px solid #F50F28;
+        }
+
+        .service-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+        }
+
+        .service-icon {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+        }
+
+        .service-card h3 {
+            color: #00437c;
+            margin-bottom: 0.5rem;
+            font-size: 1.3rem;
+        }
+
+        .service-card p {
+            font-size: 0.95rem;
+            color: #666;
+        }
+
+        .why-choose {
+            padding: 4rem 5%;
+            background: white;
+        }
+
+        .benefits-grid {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(min(100%, 250px), 1fr));
+            gap: 1.5rem;
+            margin-top: 2rem;
+        }
+
+        .benefit {
+            padding: 1.5rem;
+            border-left: 4px solid #FFB915;
+            background: #f8f9fa;
+        }
+
+        .benefit h3 {
+            color: #00437c;
+            margin-bottom: 0.5rem;
+            font-size: 1.2rem;
+        }
+
+        .benefit p {
+            font-size: 0.95rem;
+            color: #666;
+        }
+
+        .emergency {
+            background: linear-gradient(135deg, #F50F28 0%, #d00e24 100%);
+            color: white;
+            padding: 4rem 5%;
+            text-align: center;
+        }
+
+        .emergency h2 {
+            font-size: clamp(1.8rem, 4vw, 2.5rem);
+            margin-bottom: 1rem;
+        }
+
+        .emergency p {
+            font-size: clamp(1rem, 3vw, 1.3rem);
+            margin-bottom: 2rem;
+        }
+
+        .phone-number {
+            font-size: clamp(2rem, 6vw, 3rem);
+            font-weight: bold;
+            color: #FFB915;
+            margin: 1rem 0;
+        }
+
+        .phone-link {
+            color: #FFB915;
+            text-decoration: none;
+        }
+
+        .testimonials {
+            padding: 4rem 5%;
+            background: #f8f9fa;
+        }
+
+        .testimonial-grid {
+            max-width: 1200px;
+            margin: 2rem auto 0;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 1fr));
+            gap: 1.5rem;
+        }
+
+        .testimonial {
+            background: white;
+            padding: 2rem;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+
+        .stars {
+            color: #FFB915;
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .testimonial-text {
+            font-style: italic;
+            margin-bottom: 1rem;
+            color: #555;
+            font-size: 0.95rem;
+        }
+
+        .testimonial-author {
+            font-weight: bold;
+            color: #00437c;
+        }
+
+        .footer {
+            background: #00437c;
+            color: white;
+            padding: 3rem 5% 2rem;
+        }
+
+        .footer-content {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .footer-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 3rem;
+            margin-bottom: 2rem;
+        }
+
+        .footer-brand {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+        }
+
+        .footer-logo {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            margin-bottom: 1rem;
+        }
+
+        .footer-logo-img {
+            width: 60px;
+            height: 60px;
+            object-fit: contain;
+        }
+
+        .footer-logo-text {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: #FFB915;
+        }
+
+        .footer-section h4 {
+            color: #FFB915;
+            margin-bottom: 1rem;
+            font-size: 1.1rem;
+        }
+
+        .footer-links {
+            list-style: none;
+            padding: 0;
+        }
+
+        .footer-links li {
+            margin-bottom: 0.8rem;
+        }
+
+        .footer-links a {
+            color: white;
+            text-decoration: none;
+            transition: color 0.3s;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .footer-links a:hover {
+            color: #FFB915;
+        }
+
+        .footer-bottom {
+            border-top: 1px solid rgba(255, 255, 255, 0.2);
+            padding-top: 2rem;
+            text-align: center;
+        }
+
+        .social-links {
+            display: flex;
+            gap: 1rem;
+            margin-top: 1rem;
+        }
+
+        .social-link {
+            width: 40px;
+            height: 40px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-decoration: none;
+            transition: all 0.3s;
+        }
+
+        .social-link:hover {
+            background: #FFB915;
+            color: #00437c;
+            transform: translateY(-3px);
+        }
+
+        .footer h3 {
+            font-size: 1.5rem;
+        }
+
+        .footer p {
+            font-size: 0.95rem;
+        }
+
+        @media (max-width: 768px) {
+            .header {
+                padding: 0.8rem 4%;
+            }
+
+            .footer-grid {
+                grid-template-columns: 1fr;
+                gap: 2rem;
+            }
+
+            .footer {
+                padding: 2rem 4% 1.5rem;
+            }
+
+            .logo-icon {
+                width: 40px;
+                height: 40px;
+            }
+
+            .logo-name {
+                font-size: 1.1rem;
+            }
+
+            .logo-tagline {
+                font-size: 0.65rem;
+            }
+
+            .header-cta {
+                padding: 0.6rem 1rem;
+                font-size: 0.9rem;
+            }
+
+            .hero {
+                padding: 2.5rem 4% 3rem;
+            }
+
+            .cta-group {
+                flex-direction: column;
+                align-items: stretch;
+            }
+
+            .cta-option {
+                max-width: 100%;
+            }
+
+            .trust-items {
+                gap: 1rem;
+            }
+
+            .trust-item {
+                flex-basis: 100%;
+            }
+
+            .services, .why-choose, .emergency, .testimonials {
+                padding: 3rem 4%;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .logo-text {
+                display: none;
+            }
+            
+            .header-cta {
+                font-size: 0.85rem;
+                padding: 0.6rem 0.8rem;
+            }
+        }
+
+        .pulse {
+            animation: pulse 2s infinite;
+        }
+
+        @keyframes pulse {
+            0% {
+                transform: scale(1);
+            }
+            50% {
+                transform: scale(1.05);
+            }
+            100% {
+                transform: scale(1);
+            }
+        }
+
+        /* Touch-friendly tap targets */
+        @media (hover: none) {
+            button, a {
+                min-height: 44px;
+                min-width: 44px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="header-content">
+            <div class="logo-container">
+                <div class="logo-icon">
+                    <!-- Replace 'YOUR-LOGO-URL-HERE.png' with your actual logo URL -->
+                    <img src="YOUR-LOGO-URL-HERE.png" alt="Mr. Jo Appliance Repair Logo">
+                </div>
+                <div class="logo-text">
+                    <div class="logo-name">Mr. Jo Appliance</div>
+                    <div class="logo-tagline">BATON ROUGE'S TRUSTED REPAIR EXPERTS</div>
+                </div>
+            </div>
+            <a href="tel:2255557372" class="header-cta">📞 Call Now</a>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Baton Rouge's <span class="hero-highlight">Most Trusted</span> Appliance Repair Experts</h1>
+            <p>Same-Day Service • Licensed & Insured • 100% Satisfaction Guaranteed</p>
+            <div class="cta-group">
+                <a href="tel:2255557372" class="cta-option primary pulse">
+                    <span class="cta-icon">📞</span>
+                    <span class="cta-label">Call Us</span>
+                    <span class="cta-text">(225) 555-REPAIR</span>
+                </a>
+                <a href="sms:2255557372" class="cta-option secondary">
+                    <span class="cta-icon">💬</span>
+                    <span class="cta-label">Text Us</span>
+                    <span class="cta-text">Get Quick Response</span>
+                </a>
+                <a href="#booking-form" class="cta-option" onclick="scrollToBooking(event)">
+                    <span class="cta-icon">📅</span>
+                    <span class="cta-label">Book Online</span>
+                    <span class="cta-text">Schedule Service</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <div class="trust-bar">
+        <div class="trust-items">
+            <div class="trust-item">✓ 20+ Years Experience</div>
+            <div class="trust-item">✓ Same-Day Service Available</div>
+            <div class="trust-item">✓ All Brands Serviced</div>
+            <div class="trust-item">✓ Upfront Pricing</div>
+        </div>
+    </div>
+
+    <section class="services" id="services">
+        <h2 class="section-title">Expert Appliance Repair Services in Baton Rouge</h2>
+        <div class="services-grid">
+            <div class="service-card">
+                <div class="service-icon">🧊</div>
+                <h3>Refrigerator Repair</h3>
+                <p>Fast fixes for cooling issues, leaks, ice makers & more</p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">🍽️</div>
+                <h3>Dishwasher Repair</h3>
+                <p>Expert solutions for cleaning, draining & performance problems</p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">👔</div>
+                <h3>Washer & Dryer Repair</h3>
+                <p>Reliable repairs for all washing & drying issues</p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">🍳</div>
+                <h3>Oven & Stove Repair</h3>
+                <p>Professional service for gas & electric ranges</p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">📺</div>
+                <h3>Microwave Repair</h3>
+                <p>Quick repairs to get you cooking again</p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">❄️</div>
+                <h3>Freezer Repair</h3>
+                <p>Emergency service to protect your frozen goods</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="why-choose">
+        <h2 class="section-title">Why Choose Mr. Jo Appliance in Baton Rouge?</h2>
+        <div class="benefits-grid">
+            <div class="benefit">
+                <h3>🚀 Fast Response</h3>
+                <p>Same-day and emergency services available throughout Baton Rouge and surrounding areas</p>
+            </div>
+            <div class="benefit">
+                <h3>💰 Upfront Pricing</h3>
+                <p>No hidden fees - you'll know the cost before we start any repair work</p>
+            </div>
+            <div class="benefit">
+                <h3>🔧 Expert Technicians</h3>
+                <p>Factory-trained professionals who fix it right the first time</p>
+            </div>
+            <div class="benefit">
+                <h3>✅ Guaranteed Work</h3>
+                <p>100% satisfaction guarantee on all appliance repairs</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="emergency" id="contact">
+        <h2>Need Emergency Appliance Repair in Baton Rouge?</h2>
+        <p>We're Here to Help - Call Now!</p>
+        <div class="phone-number">
+            <a href="tel:2255557372" class="phone-link">(225) 555-REPAIR</a>
+        </div>
+        <a href="tel:2255557372" class="cta-primary">Get Immediate Service</a>
+        <p style="margin-top: 2rem; opacity: 0.9;">Serving Baton Rouge, Prairieville, Denham Springs & surrounding areas • Available 7 days a week</p>
+    </section>
+
+    <section class="testimonials">
+        <h2 class="section-title">What Baton Rouge Customers Say</h2>
+        <div class="testimonial-grid">
+            <div class="testimonial">
+                <div class="stars">★★★★★</div>
+                <p class="testimonial-text">"My refrigerator broke on a Sunday and Mr. Jo came out the same day! Professional, fast, and reasonably priced. Highly recommend for appliance repair in Baton Rouge!"</p>
+                <p class="testimonial-author">- Sarah M., Baton Rouge</p>
+            </div>
+            <div class="testimonial">
+                <div class="stars">★★★★★</div>
+                <p class="testimonial-text">"Honest and reliable service. They diagnosed the problem quickly and had my washer working like new. Won't call anyone else for appliance repairs!"</p>
+                <p class="testimonial-author">- James T., Prairieville</p>
+            </div>
+            <div class="testimonial">
+                <div class="stars">★★★★★</div>
+                <p class="testimonial-text">"Best appliance repair in Baton Rouge! Fair pricing, excellent communication, and quality work. Our go-to for all appliance issues."</p>
+                <p class="testimonial-author">- Maria L., Denham Springs</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="services" style="background: white;">
+        <h2 class="section-title">Service Areas in Greater Baton Rouge</h2>
+        <div style="max-width: 1000px; margin: 0 auto; text-align: center;">
+            <p style="font-size: 1.1rem; color: #666; margin-bottom: 2rem;">
+                Proudly serving Baton Rouge and surrounding communities with fast, reliable appliance repair services
+            </p>
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1.5rem; margin-top: 2rem;">
+                <div style="padding: 1.5rem; background: #f8f9fa; border-radius: 10px; border-left: 4px solid #F50F28;">
+                    <h3 style="color: #00437c; margin-bottom: 0.5rem; font-size: 1.2rem;">📍 Baton Rouge</h3>
+                    <p style="color: #666; font-size: 0.95rem;">Mid City, Garden District, Spanish Town, Southdowns</p>
+                </div>
+                <div style="padding: 1.5rem; background: #f8f9fa; border-radius: 10px; border-left: 4px solid #F50F28;">
+                    <h3 style="color: #00437c; margin-bottom: 0.5rem; font-size: 1.2rem;">📍 Prairieville</h3>
+                    <p style="color: #666; font-size: 0.95rem;">All neighborhoods</p>
+                </div>
+                <div style="padding: 1.5rem; background: #f8f9fa; border-radius: 10px; border-left: 4px solid #F50F28;">
+                    <h3 style="color: #00437c; margin-bottom: 0.5rem; font-size: 1.2rem;">📍 Denham Springs</h3>
+                    <p style="color: #666; font-size: 0.95rem;">Full coverage</p>
+                </div>
+                <div style="padding: 1.5rem; background: #f8f9fa; border-radius: 10px; border-left: 4px solid #F50F28;">
+                    <h3 style="color: #00437c; margin-bottom: 0.5rem; font-size: 1.2rem;">📍 Gonzales</h3>
+                    <p style="color: #666; font-size: 0.95rem;">All areas serviced</p>
+                </div>
+                <div style="padding: 1.5rem; background: #f8f9fa; border-radius: 10px; border-left: 4px solid #F50F28;">
+                    <h3 style="color: #00437c; margin-bottom: 0.5rem; font-size: 1.2rem;">📍 Zachary</h3>
+                    <p style="color: #666; font-size: 0.95rem;">Complete service area</p>
+                </div>
+                <div style="padding: 1.5rem; background: #f8f9fa; border-radius: 10px; border-left: 4px solid #F50F28;">
+                    <h3 style="color: #00437c; margin-bottom: 0.5rem; font-size: 1.2rem;">📍 Baker</h3>
+                    <p style="color: #666; font-size: 0.95rem;">Full service available</p>
+                </div>
+                <div style="padding: 1.5rem; background: #f8f9fa; border-radius: 10px; border-left: 4px solid #F50F28;">
+                    <h3 style="color: #00437c; margin-bottom: 0.5rem; font-size: 1.2rem;">📍 Central</h3>
+                    <p style="color: #666; font-size: 0.95rem;">All neighborhoods</p>
+                </div>
+                <div style="padding: 1.5rem; background: #f8f9fa; border-radius: 10px; border-left: 4px solid #F50F28;">
+                    <h3 style="color: #00437c; margin-bottom: 0.5rem; font-size: 1.2rem;">📍 Walker</h3>
+                    <p style="color: #666; font-size: 0.95rem;">Complete coverage</p>
+                </div>
+            </div>
+            <p style="margin-top: 2rem; color: #666; font-size: 1rem;">
+                Don't see your area? <a href="tel:2255557372" style="color: #F50F28; font-weight: bold; text-decoration: none;">Call us at (225) 555-REPAIR</a> - we may still be able to help!
+            </p>
+        </div>
+    </section>
+
+    <section class="services" style="background: #f8f9fa;">
+        <h2 class="section-title">Frequently Asked Questions</h2>
+        <div style="max-width: 900px; margin: 0 auto;">
+            <div class="faq-item" onclick="toggleFAQ(this)" style="background: white; margin-bottom: 1rem; border-radius: 10px; overflow: hidden; cursor: pointer; box-shadow: 0 2px 10px rgba(0,0,0,0.05);">
+                <div style="padding: 1.5rem; display: flex; justify-content: space-between; align-items: center; border-left: 4px solid #F50F28;">
+                    <h3 style="color: #00437c; margin: 0; font-size: 1.1rem;">How quickly can you repair my appliance?</h3>
+                    <span style="color: #F50F28; font-size: 1.5rem; font-weight: bold;">+</span>
+                </div>
+                <div class="faq-answer" style="max-height: 0; overflow: hidden; transition: max-height 0.3s ease;">
+                    <p style="padding: 0 1.5rem 1.5rem; color: #666; line-height: 1.8;">
+                        We offer same-day service for most appliance repairs in Baton Rouge! When you call, we'll schedule a convenient time, often within hours. Our technicians arrive with fully stocked trucks, so most repairs are completed on the first visit.
+                    </p>
+                </div>
+            </div>
+
+            <div class="faq-item" onclick="toggleFAQ(this)" style="background: white; margin-bottom: 1rem; border-radius: 10px; overflow: hidden; cursor: pointer; box-shadow: 0 2px 10px rgba(0,0,0,0.05);">
+                <div style="padding: 1.5rem; display: flex; justify-content: space-between; align-items: center; border-left: 4px solid #F50F28;">
+                    <h3 style="color: #00437c; margin: 0; font-size: 1.1rem;">What brands of appliances do you service?</h3>
+                    <span style="color: #F50F28; font-size: 1.5rem; font-weight: bold;">+</span>
+                </div>
+                <div class="faq-answer" style="max-height: 0; overflow: hidden; transition: max-height 0.3s ease;">
+                    <p style="padding: 0 1.5rem 1.5rem; color: #666; line-height: 1.8;">
+                        We repair all major appliance brands including Whirlpool, GE, Samsung, LG, Maytag, Frigidaire, KitchenAid, Bosch, Electrolux, and many more. Our technicians are factory-trained and equipped to handle any brand or model.
+                    </p>
+                </div>
+            </div>
+
+            <div class="faq-item" onclick="toggleFAQ(this)" style="background: white; margin-bottom: 1rem; border-radius: 10px; overflow: hidden; cursor: pointer; box-shadow: 0 2px 10px rgba(0,0,0,0.05);">
+                <div style="padding: 1.5rem; display: flex; justify-content: space-between; align-items: center; border-left: 4px solid #F50F28;">
+                    <h3 style="color: #00437c; margin: 0; font-size: 1.1rem;">Do you charge for diagnosis?</h3>
+                    <span style="color: #F50F28; font-size: 1.5rem; font-weight: bold;">+</span>
+                </div>
+                <div class="faq-answer" style="max-height: 0; overflow: hidden; transition: max-height 0.3s ease;">
+                    <p style="padding: 0 1.5rem 1.5rem; color: #666; line-height: 1.8;">
+                        We charge a service call fee for diagnosis, which is waived if you proceed with the repair. You'll receive upfront pricing before any work begins - no hidden fees or surprises!
+                    </p>
+                </div>
+            </div>
+
+            <div class="faq-item" onclick="toggleFAQ(this)" style="background: white; margin-bottom: 1rem; border-radius: 10px; overflow: hidden; cursor: pointer; box-shadow: 0 2px 10px rgba(0,0,0,0.05);">
+                <div style="padding: 1.5rem; display: flex; justify-content: space-between; align-items: center; border-left: 4px solid #F50F28;">
+                    <h3 style="color: #00437c; margin: 0; font-size: 1.1rem;">Is your work guaranteed?</h3>
+                    <span style="color: #F50F28; font-size: 1.5rem; font-weight: bold;">+</span>
+                </div>
+                <div class="faq-answer" style="max-height: 0; overflow: hidden; transition: max-height 0.3s ease;">
+                    <p style="padding: 0 1.5rem 1.5rem; color: #666; line-height: 1.8;">
+                        Absolutely! We stand behind our work with a 100% satisfaction guarantee. All repairs come with a warranty on parts and labor. If you experience any issues, we'll make it right at no additional cost.
+                    </p>
+                </div>
+            </div>
+
+            <div class="faq-item" onclick="toggleFAQ(this)" style="background: white; margin-bottom: 1rem; border-radius: 10px; overflow: hidden; cursor: pointer; box-shadow: 0 2px 10px rgba(0,0,0,0.05);">
+                <div style="padding: 1.5rem; display: flex; justify-content: space-between; align-items: center; border-left: 4px solid #F50F28;">
+                    <h3 style="color: #00437c; margin: 0; font-size: 1.1rem;">What payment methods do you accept?</h3>
+                    <span style="color: #F50F28; font-size: 1.5rem; font-weight: bold;">+</span>
+                </div>
+                <div class="faq-answer" style="max-height: 0; overflow: hidden; transition: max-height 0.3s ease;">
+                    <p style="padding: 0 1.5rem 1.5rem; color: #666; line-height: 1.8;">
+                        We accept all major credit cards, debit cards, cash, and checks. Payment is due upon completion of the repair. We make it easy and convenient for our Baton Rouge customers.
+                    </p>
+                </div>
+            </div>
+
+            <div class="faq-item" onclick="toggleFAQ(this)" style="background: white; margin-bottom: 1rem; border-radius: 10px; overflow: hidden; cursor: pointer; box-shadow: 0 2px 10px rgba(0,0,0,0.05);">
+                <div style="padding: 1.5rem; display: flex; justify-content: space-between; align-items: center; border-left: 4px solid #F50F28;">
+                    <h3 style="color: #00437c; margin: 0; font-size: 1.1rem;">Should I repair or replace my appliance?</h3>
+                    <span style="color: #F50F28; font-size: 1.5rem; font-weight: bold;">+</span>
+                </div>
+                <div class="faq-answer" style="max-height: 0; overflow: hidden; transition: max-height 0.3s ease;">
+                    <p style="padding: 0 1.5rem 1.5rem; color: #666; line-height: 1.8;">
+                        Our honest technicians will assess your appliance and provide transparent advice. Generally, if the repair cost is less than half the replacement cost and your appliance is under 10 years old, repair is the smart choice. We'll help you make the best decision for your situation and budget.
+                    </p>
+                </div>
+            </div>
+
+            <div class="faq-item" onclick="toggleFAQ(this)" style="background: white; margin-bottom: 1rem; border-radius: 10px; overflow: hidden; cursor: pointer; box-shadow: 0 2px 10px rgba(0,0,0,0.05);">
+                <div style="padding: 1.5rem; display: flex; justify-content: space-between; align-items: center; border-left: 4px solid #F50F28;">
+                    <h3 style="color: #00437c; margin: 0; font-size: 1.1rem;">Do you offer emergency appliance repair?</h3>
+                    <span style="color: #F50F28; font-size: 1.5rem; font-weight: bold;">+</span>
+                </div>
+                <div class="faq-answer" style="max-height: 0; overflow: hidden; transition: max-height 0.3s ease;">
+                    <p style="padding: 0 1.5rem 1.5rem; color: #666; line-height: 1.8;">
+                        Yes! We understand that appliance emergencies don't follow a schedule. We offer emergency repair services 7 days a week in Baton Rouge and surrounding areas. Call us anytime at (225) 555-REPAIR for urgent repairs.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <div class="footer-logo">
+                        <!-- Replace 'YOUR-LOGO-URL-HERE.png' with your actual logo URL -->
+                        <img src="YOUR-LOGO-URL-HERE.png" alt="Mr. Jo Appliance Logo" class="footer-logo-img">
+                        <div class="footer-logo-text">Mr. Jo Appliance</div>
+                    </div>
+                    <p style="color: rgba(255, 255, 255, 0.9); line-height: 1.6;">
+                        Baton Rouge's most trusted appliance repair service. Licensed, insured, and family-owned since 2005.
+                    </p>
+                    <div class="social-links">
+                        <a href="https://www.google.com/maps/search/?api=1&query=Mr+Jo+Appliance+Baton+Rouge" target="_blank" class="social-link" title="Google Reviews">⭐</a>
+                        <a href="https://www.facebook.com" target="_blank" class="social-link" title="Facebook">📘</a>
+                        <a href="https://www.instagram.com" target="_blank" class="social-link" title="Instagram">📷</a>
+                    </div>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="#services">🔧 Our Services</a></li>
+                        <li><a href="#booking-form">📅 Book Online</a></li>
+                        <li><a href="/about-us">ℹ️ About Us</a></li>
+                        <li><a href="https://www.google.com/maps/search/?api=1&query=Mr+Jo+Appliance+Baton+Rouge" target="_blank">⭐ Google Reviews</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Legal & Support</h4>
+                    <ul class="footer-links">
+                        <li><a href="/privacy-policy">🔒 Privacy Policy</a></li>
+                        <li><a href="/warranty-terms">✅ Warranty Terms</a></li>
+                        <li><a href="/contact-us">📧 Contact Us</a></li>
+                        <li><a href="/service-areas">📍 Service Areas</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <ul class="footer-links">
+                        <li><a href="tel:2255557372">📞 (225) 555-REPAIR</a></li>
+                        <li><a href="sms:2255557372">💬 Text Us</a></li>
+                        <li><a href="mailto:info@mrjoappliance.com">✉️ info@mrjoappliance.com</a></li>
+                        <li style="color: rgba(255, 255, 255, 0.9);">📍 Serving Baton Rouge, LA</li>
+                    </ul>
+                    <p style="margin-top: 1rem; color: #FFB915; font-weight: bold;">
+                        Open 7 Days a Week<br>
+                        7:00 AM - 9:00 PM
+                    </p>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p style="opacity: 0.9; margin-bottom: 0.5rem;">
+                    Professional Appliance Repair Services in Baton Rouge, Louisiana
+                </p>
+                <p style="opacity: 0.8;">
+                    © 2025 Mr. Jo Appliance Repair. All rights reserved. | Licensed & Insured
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        function scrollToServices() {
+            document.getElementById('services').scrollIntoView({ behavior: 'smooth' });
+        }
+
+        function scrollToBooking(e) {
+            e.preventDefault();
+            document.getElementById('booking-form').scrollIntoView({ behavior: 'smooth' });
+        }
+
+        function toggleFAQ(element) {
+            const answer = element.querySelector('.faq-answer');
+            const icon = element.querySelector('span');
+            const allFAQs = document.querySelectorAll('.faq-item');
+            
+            // Close all other FAQs
+            allFAQs.forEach(faq => {
+                if (faq !== element) {
+                    faq.querySelector('.faq-answer').style.maxHeight = '0';
+                    faq.querySelector('span').textContent = '+';
+                }
+            });
+            
+            // Toggle current FAQ
+            if (answer.style.maxHeight === '0px' || answer.style.maxHeight === '') {
+                answer.style.maxHeight = answer.scrollHeight + 'px';
+                icon.textContent = '−';
+            } else {
+                answer.style.maxHeight = '0';
+                icon.textContent = '+';
+            }
+        }
+    </script>
+</body>
+</html>
